@@ -43,6 +43,7 @@ ul{
 
 li p{
     text-align: justify;
+    height: 108px;
 }
 
 .menuimg{
@@ -61,7 +62,10 @@ li p{
 
 .recipe-prep{
     background-color: rgb(236, 221, 123);
-    margin: 5px 25px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 15px 25px;
     padding: 1px;
     border: 2px solid grey;
     border-radius: 3px;
