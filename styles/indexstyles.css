@@ -24,11 +24,12 @@ ul{
     list-style: none;
 }
 
-li{
+.recipe-list{
     display: inline-block;
-    width: 270px;
-    height: 456px;
+    width: 280px;
+    height: 550px;
     border: 2px solid gray;
+    border-radius: 3px;
     margin: 0px 20px;
     padding: 5px 15px;
     vertical-align: top;
@@ -36,7 +37,7 @@ li{
 }
 
 .li-link{
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -47,4 +48,21 @@ li p{
 .menuimg{
     width: 250px;
     height: 250px;
+}
+
+.recipe-info{
+    display: inline-block;
+    font-size: 15px;
+    margin: 8px 10px;
+    padding: 1px 1px;
+    text-align: left;
+
+}
+
+.recipe-prep{
+    background-color: rgb(236, 221, 123);
+    margin: 5px 25px;
+    padding: 1px;
+    border: 2px solid grey;
+    border-radius: 3px;
 }
